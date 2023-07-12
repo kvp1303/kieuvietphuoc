@@ -45,20 +45,33 @@ body{
     list-style: none;
 }
 .name .contact span{
+    margin-left: 10px;
     display: inline-block;
-    background-color: #000;
-    width:20px;
-    height:20px;
     color:#fff;
-    text-align: center;
-    border-radius: 50%;
-    font-size: small;
-    margin-right: 20px;
 }
 .name .contact li{
+    display: flex;
     padding:5px 0;
     transform: translate(-40px);
     background-color: #E9E7EA;
+}
+.name .contact li ion-icon{
+    font-size: x-large;
+
+}
+.name .contact li span {
+    display: block;
+    color: #000;
+
+
+}
+.name .contact li a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 10px;
+}
+.name .contact li a:hover{
+    color: #d05111;
 }
 .info ul{
     padding: 0;
@@ -84,6 +97,9 @@ h2{
     margin:20px 0 10px;
 }
 .skills{
+    margin-top:  50px;
+}
+.language{
     margin-top:  50px;
 }
 .experience ul{
